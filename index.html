@@ -37,20 +37,30 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <h2>thunrfble</h2>
+                <img scr="thunrfble.jpg">
+                <div class="Text">
+                <p>thunrfble</p>
+                <p>создавал мобильные игры</p>
+            </div>
         </div>
             <div class="carousel-item">
-            <p>Scrath</p>
+                <img scr="Construct2.jpg">
+            <p>Construct</p>
+            <p>Sonic</p>
+            <p>чтобы создать соника я использовал спрайты соника бегоющим,полу бегоющим,стоящим.</p>
         </div>
         </div>
         <button id="prev">назад </button>
         <button id="next">вперед</button>
     </section>
        <script>
-document.getElementById('prew').addEventListener('clic'), () => {
-document.querySelector('.carousel') .scrollBy(-1000,0);
+document.getElementById('prev').addEventListener('click', () => {
+document.querySelector('.carousel').scrollBy(-1000,0);
 });
+document.getElementById('next').addEventListener('click', () => {
+document.querySelector('.carousel').scrollBy(1000,0);
+});
+
        </script> 
 </body>
 </div>
-</html>
